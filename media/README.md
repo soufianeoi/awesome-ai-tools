@@ -2,83 +2,155 @@
 
 ## ComfyUI
 
-[![GitHub](https://img.shields.io/github/stars/comfyanonymous/ComfyUI?style=flat-square)](https://github.com/comfyanonymous/ComfyUI)
+[![GitHub](ht
+tps://img.shields.io/github/stars/comfyanonym
+ous/ComfyUI?style=flat-square)](https://githu
+b.com/comfyanonymous/ComfyUI)
 
-**Type:** Image/Video
+**Type:** Imag
+e/Video
 
-**Description:** Node-based UI for Stable Diffusion workflows. Advanced control, composable pipelines.
+**Description:** Node-based UI for S
+table Diffusion workflows. Advanced control, 
+composable pipelines.
 
 ```bash
-git clone https://github.com/comfyanonymous/ComfyUI
-cd ComfyUI && pip install -r requirements.txt
-python main.py
+git clone http
+s://github.com/comfyanonymous/ComfyUI
+cd Comf
+yUI && pip install -r requirements.txt
+python
+ main.py
 ```
 
-## Automatic1111 (Stable Diffusion WebUI)
+## Automatic1111 (Stable Diffus
+ion WebUI)
 
-[![GitHub](https://img.shields.io/github/stars/AUTOMATIC1111/stable-diffusion-webui?style=flat-square)](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+[![GitHub](https://img.shields.io
+/github/stars/AUTOMATIC1111/stable-diffusion-
+webui?style=flat-square)](https://github.com/
+AUTOMATIC1111/stable-diffusion-webui)
 
-**Type:** Image
+**Type
+:** Image
 
-**Description:** Feature-rich web UI for Stable Diffusion. Extensions, inpainting, controlnet.
+**Description:** Feature-rich web 
+UI for Stable Diffusion. Extensions, inpainti
+ng, controlnet.
 
 ```bash
-git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
+git clone https://gi
+thub.com/AUTOMATIC1111/stable-diffusion-webui
+
 cd stable-diffusion-webui && ./webui.sh
 ```
 
+
 ## Diffusers (Hugging Face)
 
-[![GitHub](https://img.shields.io/github/stars/huggingface/diffusers?style=flat-square)](https://github.com/huggingface/diffusers)
+[![GitHub](http
+s://img.shields.io/github/stars/huggingface/d
+iffusers?style=flat-square)](https://github.c
+om/huggingface/diffusers)
 
-**Type:** Image/Video/Audio/3D
+**Type:** Image/Vi
+deo/Audio/3D
 
-**Description:** State-of-the-art diffusion models library. Image, video, audio generation.
+**Description:** State-of-the-a
+rt diffusion models library. Image, video, au
+dio generation.
 
 ```python
-from diffusers import StableDiffusionPipeline
-pipe = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5")
-image = pipe("a cat").images[0]
+from diffusers imp
+ort StableDiffusionPipeline
+pipe = StableDiff
+usionPipeline.from_pretrained("runwayml/stabl
+e-diffusion-v1-5")
+image = pipe("a cat").imag
+es[0]
 image.save("cat.png")
 ```
 
-## Stable Audio
+## Stable Au
+dio
 
-[![Website](https://img.shields.io/badge/Stable_Audio-6C47FF?style=flat-square)](https://stability.ai/stable-audio)
+[![Website](https://img.shields.io/badge
+/Stable_Audio-6C47FF?style=flat-square)](http
+s://stability.ai/stable-audio)
 
-**Type:** Audio
+**Type:** Aud
+io
 
-**Description:** Generate music and sound effects from text prompts.
+**Description:** Generate music and sound
+ effects from text prompts.
 
 ```python
-import requests
-res = requests.post('https://api.stability.ai/v2beta/audio/stable-audio/generate',
-  headers={'Authorization': f'Bearer {STABILITY_API_KEY}', 'Content-Type': 'application/json'},
-  json={'prompt': 'upbeat electronic music', 'duration': 10})
-with open('output.wav', 'wb') as f: f.write(res.content)
+import
+ requests
+res = requests.post('https://api.st
+ability.ai/v2beta/audio/stable-audio/generate
+',
+  headers={'Authorization': f'Bearer {STAB
+ILITY_API_KEY}', 'Content-Type': 'application
+/json'},
+  json={'prompt': 'upbeat electronic
+ music', 'duration': 10})
+with open('output.w
+av', 'wb') as f: f.write(res.content)
 ```
 
-## Suno / Udio
+##
+ Suno / Udio
 
 **Type:** Audio/Music
 
-**Description:** AI music generation from text prompts. Generate full songs with lyrics.
+**Descri
+ption:** AI music generation from text prompt
+s. Generate full songs with lyrics.
 
-```python
-# These are web-first products with no official API.
-# Use their web interfaces: suno.ai, udio.com
+```pytho
+n
+# These are web-first products with no offi
+cial API.
+# Use their web interfaces: suno.ai
+, udio.com
 ```
 
-## InstantMesh / 3D Generation
+## InstantMesh / 3D Generatio
+n
 
-[![GitHub](https://img.shields.io/github/stars/TencentARC/InstantMesh?style=flat-square)](https://github.com/TencentARC/InstantMesh)
+[![GitHub](https://img.shields.io/github/s
+tars/TencentARC/InstantMesh?style=flat-square
+)](https://github.com/TencentARC/InstantMesh)
+
 
 **Type:** 3D
 
-**Description:** Generate 3D meshes from a single image in seconds.
+**Description:** Generate 3D 
+meshes from a single image in seconds.
 
-```bash
-git clone https://github.com/TencentARC/InstantMesh
-cd InstantMesh && pip install -r requirements.txt
-python run.py --input image.png --output_dir output/
+```ba
+sh
+git clone https://github.com/TencentARC/In
+stantMesh
+cd InstantMesh && pip install -r re
+quirements.txt
+python run.py --input image.pn
+g --output_dir output/
 ```
+
+
+
+## Recapo.ai
+
+[![Website](https://img.shields.io/badge/Recapo.ai-6C47FF?style=flat-square)](https://recapo.ai)
+
+**Type:** Video/Editing
+
+**Description:** AI-powered editing platform that understands long-form video, generates scripts, edits clips, adds subtitles and AI voiceover, delivers publish-ready short videos. Chat-based editing, batch generation, cloud rendering.
+
+```python
+# Web-first product. Use: recapo.ai
+```
+
+
