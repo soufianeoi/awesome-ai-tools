@@ -1,5 +1,21 @@
 # Agent Frameworks
 
+## Agent QA
+
+[![GitHub](https://img.shields.io/github/stars/vostride/agent-qa?style=flat-square)](https://github.com/vostride/agent-qa)
+
+**Description:** Natural-language web and mobile regression QA through CLI and MCP workflows.
+
+**Free tier:** The npm package is free; configured model providers may charge for usage.
+
+**Docs:** [GitHub repository](https://github.com/vostride/agent-qa)
+
+**License:** Current releases use the source-available FSL-1.1-ALv2 and convert to Apache-2.0 after two years.
+
+```bash
+npx -y agent-qa init
+```
+
 ## LangChain Agents
 
 [![GitHub](https://img.shields.io/github/stars/langchain-ai/langchain?style=flat-square)](https://github.com/langchain-ai/langchain)
