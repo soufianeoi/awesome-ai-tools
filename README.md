@@ -33,7 +33,7 @@
 
 | Category | File | Entries |
 |----------|------|---------|
-| APIs | [apis/README.md](apis/README.md) | 16 |
+| APIs | [apis/README.md](apis/README.md) | 15 |
 | Models | [models/README.md](models/README.md) | 12 |
 | Frameworks | [frameworks/README.md](frameworks/README.md) | 10 |
 | Vector Databases | [vectordbs/README.md](vectordbs/README.md) | 6 |
