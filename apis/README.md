@@ -176,6 +176,20 @@ res = requests.post('https://api.perplexity.ai/chat/completions',
 print(res.json()['choices'][0]['message']['content'])
 ```
 
+## SandBase CLI
+
+[![GitHub Stars](https://img.shields.io/github/stars/sandbaseai/cli?style=flat-square)](https://github.com/sandbaseai/cli)
+
+**Description:** Open-source CLI and MCP bridge connecting AI clients to 2,000+ models.
+
+**Free tier:** Apache-2.0 CLI and free account; model calls are usage-priced
+
+**Docs:** [README](https://github.com/sandbaseai/cli#readme)
+
+```bash
+npx -y https://github.com/sandbaseai/cli/releases/download/v0.1.17/sandbaseai-cli-0.1.17.tgz catalog --json
+```
+
 ## Stability AI
 
 [![Website](https://img.shields.io/badge/Stability_AI-6C47FF?style=flat-square)](https://platform.stability.ai)
